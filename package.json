@@ -1,0 +1,24 @@
+{
+  "name": "perf-opt",
+  "version": "1.0.0",
+  "description": "Website Optimization project",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fd97002/frontend-nanodegree-mobile-portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fd97002/frontend-nanodegree-mobile-portfolio/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-htmlmin": "^2.4.0",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-nodeunit": "~0.4.1",
+    "grunt-contrib-uglify": "^0.5.1"
+  }
+}
