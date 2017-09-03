@@ -424,14 +424,18 @@ var resizePizzas = function(size) {
 
   // Iterates through pizza elements on the page and changes their widths
   function changePizzaSizes(size) {
+    var newwidth = 0;
   
     switch(size) {
       case "1":
         newwidth = 25;
+        break;
         case "2":
         newwidth = 33.33;
+        break;
         case "3":
         newwidth = 50;
+        break;
         default:
           console.log("bug in sizeSwitcher");
       }
