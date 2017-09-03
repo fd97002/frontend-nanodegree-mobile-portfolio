@@ -30,11 +30,26 @@ Some useful tips to help you get started:
 
 Profile, optimize, measure... and then lather, rinse, and repeat. Good luck!
 
+##### Solution
+
+1. Added async attribute to google analytics script.
+1. Adding media="print" to print css
+1. Optimizing the jpg images. The images (profilepic, pizzeria) were compressed using Photoshop
+1. Added a grunt task to minify html, js & css. Made changes to use minified files in code
+1. Inline css
+1. Utilized https://www.lockedowndesign.com/load-google-fonts-asynchronously-for-page-speed/ as mentioned in one of Udacity threads, to optimize on fonts
+
 #### Part 2: Optimize Frames per Second in pizza.html
 
 To optimize views/pizza.html, you will need to modify views/js/main.js until your frames per second rate is 60 fps or higher. You will find instructive comments in main.js. 
 
 You might find the FPS Counter/HUD Display useful in Chrome developer tools described here: [Chrome Dev Tools tips-and-tricks](https://developer.chrome.com/devtools/docs/tips-and-tricks).
+
+##### Solution
+
+1. Removed determinDx and follow the solution that was described in the course to get rid of jank because of recalculate style
+1. Optimized ChangepizzaSizes to remove jank. Take repeatedly calculated scrollposition out of loop
+1. Optimized the loop from 200 iterations to 40. (I dont know where 200 number came from)
 
 ### Optimization Tips and Tricks
 * [Optimizing Performance](https://developers.google.com/web/fundamentals/performance/ "web performance")
